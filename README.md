@@ -1,5 +1,8 @@
 # A2S Info Getter
 
+Текущий работающий адрес сервиса, доступный всем желающим: `https://ufamez.ru/api/game-info/`
+Про эндпоинты прочесть можно ниже
+
 ## Возможные параметры запроса
 
   - `type` (обязательный): [Тип игры](https://github.com/gamedig/node-gamedig/blob/master/GAMES_LIST.md). (Брать из колонки `GameDig Type ID`)
