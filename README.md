@@ -1,5 +1,8 @@
 # A2S Info Getter
 
+- Текущий работающий адрес сервиса, доступный всем желающим: https://getgameinfo.ru/
+- Про эндпоинты прочесть можно ниже
+
 ## Возможные параметры запроса
 
   - `type` (обязательный): [Тип игры](https://github.com/gamedig/node-gamedig/blob/master/GAMES_LIST.md). (Брать из колонки `GameDig Type ID`)
@@ -14,7 +17,7 @@
   - `requestRules` (необязательный): Флаг, указывающий, запрашивать правила сервера.
 
 Пример запроса с параметрами:
-`/api/game-info/info?type=cs16&host=93.191.11.213&port=27055&requestRules=true`
+`/info?type=cs16&host=93.191.11.213&port=27055&requestRules=true`
 
 ## Эндпоинты
 
