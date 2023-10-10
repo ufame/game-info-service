@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, filename='test.txt', filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
 
 def make_requests():
-    url = 'http://127.0.0.1:3000/api/game-info/info?type=cs16&host=93.191.11.213&port=27055'
+    url = 'https://getgameinfo.ru/info?type=cs16&host=93.191.11.213&port=27055'
     num_requests = 100
 
     for _ in range(num_requests):
